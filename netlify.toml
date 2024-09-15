@@ -1,0 +1,7 @@
+[build]
+  functions = "functions"  # Path to your functions directory
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api"
+  status = 200
